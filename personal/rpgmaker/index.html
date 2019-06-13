@@ -1,0 +1,93 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>RPGMaker la web del Tutorial ^______^</title>
+</head>
+
+<body bgcolor="#C0C0C0">
+
+<p align="left">
+<br>
+</p>
+<div align="center">
+  <table border="1" width="1%" height="1" bgcolor="#FFFFFF" bordercolor="#000000">
+    <tr>
+      <td width="100%" height="1" bordercolor="#000000" bgcolor="#FFFFFF" bordercolorlight="#000000" bordercolordark="#000000">
+        <p align="right"><map name="FPMap0">
+        <area href="http://www.academiarpg.com/personal/rpgmaker/Noticias.html" shape="rect" coords="240, 345, 391, 400">
+        <area href="http://www.foros.net/RPGMaker.html" shape="rect" coords="241, 407, 390, 461"></map><img border="0" src="http://www.academiarpg.com/personal/rpgmaker/Imagenes/Logo%20de%20inicio%20a%20la%20web%20xD.png" usemap="#FPMap0" width="415" height="476"></p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<p align="center"><b>Web dedicada al RPGMaker<br>
+  <?php
+
+
+
+$counterFile = "visitas.txt"; //nombre y ruta del archivo de texto .txt, debe tener permiso 777 CHMOD, desde tu FTP
+
+
+
+function displayCounter($counterFile) {
+
+$fp = fopen($counterFile,rw);
+
+$num = fgets($fp,5);
+
+$num += 1;
+
+echo "$num";
+
+exec( "rm -rf $counterFile");
+
+exec( "echo $num > $counterFile");
+
+}
+
+
+
+if (!file_exists($counterFile)) {
+
+exec( "echo 1 > $counterFile");
+
+}
+
+
+
+displayCounter($counterFile);
+
+
+
+?>
+  </b></p>
+
+</body>
+
+</html>
+
+<script language="Javascript">
+<!-- Begin
+document.oncontextmenu = function(){return false}
+// End -->
+</script>
+
+<script language="Javascript">
+<!-- Begin
+function disableselect(e){
+return false
+}
+function reEnable(){
+return true
+}
+document.onselectstart=new Function ("return false")
+if (window.sidebar){
+document.onmousedown=disableselect
+document.onclick=reEnable
+}
+// End -->
+</script>

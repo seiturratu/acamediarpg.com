@@ -1,0 +1,122 @@
+body {
+	background-color: black;
+	color: white;
+	background-image: url("imagenes/academia.png");
+	background-repeat: no-repeat;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: red;
+	background-color: inherit;
+	font-family: "DejaVu Sans Mono", "Lucida Console",
+	"Lucida Mono", "Andale Mono", monospace, "Courier New", Courier;
+}
+
+h1 {
+	margin-left: 96px;
+}
+
+p {
+	font-family: "DejaVu Sans", "Lucida Sans Unicode MS",
+	"Lucida Sans", sans, "Tahoma", "Verdana", "Arial Unicode MS", "Arial",
+	sans-serif;
+	font-size: smaller;
+	line-height: 1.5em;
+	text-align: justify;
+}
+a:link {
+	color: #66FF66;
+	background-color: inherit;
+}
+a:visited {
+	color: #00CC00;
+	background-color: inherit;
+}
+a:hover {
+	color: yellow;
+	background-color: inherit;
+}
+a:active {
+	color: yellow;
+	background-color: inherit;
+	}
+
+a img {
+	border: none
+}
+ul {
+	list-style-type: none;
+}
+li {
+	font-family: "DejaVu Sans Mono", "Lucida Console",
+	"Lucida Mono", "Andale Mono", monospace, "Courier New", Courier;
+	line-height: 2em;
+	font-size: smaller;
+	margin-left: -30px;
+}
+li:before {
+	content: ">";
+	color: red;
+	background-color: inherit;
+}
+
+hr {
+	height: 0em;
+	border: 0.125em outset red;
+}
+pre {
+	font-family: "DejaVu Sans Mono", "Lucida Console",
+	"Lucida Mono", "Andale Mono", monospace, "Courier New", Courier;
+	font-size: smaller;
+}
+table {
+	font-family: "DejaVu Sans Mono", "Lucida Console",
+	"Lucida Mono", "Andale Mono", monospace, "Courier New", Courier;
+	margin-left: auto;
+	margin-right: auto;
+	border: 0.155em dotted maroon;
+	font-size: smaller;
+}
+div {
+	font-family: "DejaVu Sans", "Lucida Sans Unicode MS",
+	"Lucida Sans", sans, "Tahoma", "Verdana", "Arial Unicode MS", "Arial",
+	sans-serif;
+}
+caption {
+	caption-side: bottom;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: right;
+	width: auto;
+	font-size: smaller;
+	font-style: italic;
+}
+
+th {
+	background-color: maroon;
+	color: black;
+}
+
+.autodesplazamiento {
+	overflow: auto;
+}
+
+.autornoticia {
+	font-family: "DejaVu Sans Mono", "Lucida Console",
+	"Lucida Mono", "Andale Mono", monospace, "Courier New", Courier;
+	font-size: smaller;
+	text-align: right;	
+}
+
+.fechanoticia {
+	color: inherit;
+	background-color: maroon;
+	font-family: "DejaVu Sans Mono", "Lucida Console",
+	"Lucida Mono", "Andale Mono", monospace, "Courier New", Courier;
+	font-size: smaller;
+}
+
+.material {
+	color: inherit;
+	background-color: #480000;
+}

@@ -1,0 +1,28 @@
+html{
+      height: 95%;
+}
+body{ 
+      cursor: url('imagenes/cursor.cur.html'), auto;
+      height: 95%;
+      scrollbar-face-color: #C0C0C0;
+      scrollbar-highlight-color: #000000;
+	  scrollbar-shadow-color: #000000;
+      scrollbar-3dlight-color: #333333;
+	  scrollbar-arrow-color:  #000000;
+	  scrollbar-track-color: #333333;
+	  scrollbar-darkshadow-color: #333333;
+}
+a{
+  text-decoration: none;
+  cursor: url('imagenes/link.cur.html'), hand;
+}
+.form {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #333333;
+	border: 1px #000000 solid;
+}
+
+

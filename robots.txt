@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es">
+	<head>
+		<title>Academia RPGMaker</title>
+		<meta http-equiv="Content-Type"
+			content="text/html; charset=utf-8" />
+		<link href="imagenes/icono.png" type="image/png"
+			rel="icon" />
+		<link href="academia.css" type="text/css" rel="stylesheet"
+			title="Estilo Academia RPGMaker" />
+		<link href="blanco.css" type="text/css"
+			rel="alternate stylesheet" title="Estilo en blanco"
+			/>
+		<link href="noticias.xml" type="application/rss+xml"
+			rel="alternate"
+			title="Noticias de Academia RPGMaker (RSS 1.0)"
+			 />
+	</head>
+	<body>
+		<div id="encabezado">
+			<h1>
+				<span id="titulo">
+					<img src="imagenes/academia.png"
+						alt="Bienvenid@ a" />
+					Academia RPGMaker
+				</span>
+			</h1>
+		</div>
+		<div id="cuerpo">
+			<h2>Error 404: Archivo no encontrado</h2>
+<p>
+	Alg&uacute;n archivo no ha sido encontrado, tal vez la
+	direcci&oacute;n que has introducido est&eacute; mal escrita, si se
+	trata de un enlace hecho desde la propia p&aacute;gina de la
+	Academia, av&iacute;sanos, por favor, ya que podr&iacute;a ser un
+	fallo nuestro, gracias.
+</p>
+		</div>
+		<div id="secciones">
+			<ul>
+				<li>
+					<a href="http://www.academiarpg.com/">
+						Portada
+					</a>
+				</li>
+				<li>
+					<a href="?seccion=material">
+						Material
+					</a>
+				</li>
+				<li>
+					<a href="?seccion=tutoriales">
+						Tutoriales
+					</a>
+				</li>
+				<li>
+					<a href="?seccion=albergue">
+						Albergue
+					</a>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>
